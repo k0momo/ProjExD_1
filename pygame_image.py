@@ -14,7 +14,7 @@ def main():
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT: return
-        #練習2
+        #練習2 
         screen.blit(bg_img, [0, 0])
         pg.display.update()
         tmr += 1        
